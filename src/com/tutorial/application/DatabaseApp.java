@@ -2,6 +2,9 @@ package com.tutorial.application;
 
 import com.tutorial.error.DatabaseError;
 
+// Note : Error exception tidak di rekomendasikan menggunakan try-catch.
+// gunakan Error exception pada error yang fatal yang menyebabkan aplikasinya tidak bisa berjalan dengan baik. seperti Gagal koneksi ke Database.
+
 public class DatabaseApp {
     public static void main(String[] args) {
 //        connectToDatabase(null, "rahasia");
